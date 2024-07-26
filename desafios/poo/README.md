@@ -1,7 +1,7 @@
 # [DIO](www.dio.me) - Trilha Java Básico
 
 ## Autores
-- [Gleyson Sampaio](https://github.com/glysns)
+- [Rafael Souza](https://github.com/rafael8souza)
 
 ## POO - Desafio
 
@@ -31,18 +31,21 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +ligar(String numero)
+        +atender()
+        +iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
     }
 
     class iPhone {
@@ -60,5 +63,5 @@ classDiagram
 4. Submeta seu repositório GitHub conforme as orientações da plataforma DIO. Por exemplo:
 
 ```bash
-https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
+https://github.com/rafael8souza/trilha-java-basico/edit/main/desafios/poo/README.md
 ```` 
